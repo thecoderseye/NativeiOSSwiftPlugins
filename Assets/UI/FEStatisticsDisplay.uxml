@@ -1,0 +1,13 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/Styles/FECommonStyles.uss?fileID=7433441132597879392&amp;guid=fa135d5f98c69480c84fe0d6532eccd3&amp;type=3#FECommonStyles" />
+    <ui:VisualElement style="flex-grow: 1; flex-direction: column; min-width: auto; min-height: auto; flex-shrink: 1;">
+        <ui:GroupBox name="DescriptionGroup" style="background-color: rgba(75, 75, 75, 0.63); flex-shrink: 1; flex-grow: 9;">
+            <ui:TreeView name="TreeView" auto-expand="false" style="display: none;" />
+            <ui:Label name="ProfileDataView" style="width: 100%; height: 100%; color: rgb(255, 255, 255); font-size: 12px;" />
+        </ui:GroupBox>
+        <ui:GroupBox name="ButtonGroup" style="flex-basis: auto; background-color: rgb(140, 140, 140); flex-shrink: 1; flex-grow: 0.5; flex-direction: row; align-items: stretch;">
+            <ui:Button text="Start Tracking" name="StartTracking" class="button-stats-trigger" style="flex-grow: 1; flex-shrink: 1;" />
+            <ui:Button text="Stop Tracking" name="StopTracking" enable-rich-text="false" class="button-stats-trigger" />
+        </ui:GroupBox>
+    </ui:VisualElement>
+</ui:UXML>

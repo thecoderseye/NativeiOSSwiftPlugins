@@ -1,0 +1,20 @@
+{
+  "name": "com.jeremyroh.demonativeplugins",
+  "displayName": "Native Profiler",
+  "version": "0.0.1",
+  "unity": "2023.2",
+  "author": {
+    "name": "Jeremy ROH",
+    "email": "jeremy.rohsh@gmail.com"
+  },
+  "keywords": [
+  ],
+  "category": "Library",
+  "config": {},
+  "repository": {
+    "type": "git",
+    "url": "ssh://git@"
+  },
+  "type": "library",
+  "description": "NativePlugins to track performance and resource usages such as cpu, memory, etc"
+}
