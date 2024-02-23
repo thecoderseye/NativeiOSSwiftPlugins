@@ -3,17 +3,17 @@
 ### What is this repository for? ###
 
 * Demo to show iOS tracking data such as cpu, memory, etc
-*  
+* [Demo Video] (https://youtube.com/shorts/c-gumy1jtwY?feature=share)
 
 ### Dev Environment
 * Test device
-  > Model: iPhone 11
-  > iOS 15.1 (19B74)
+   Model: iPhone 11
+   iOS 15.1 (19B74)
 * Unity
-  > 2023.2.5f1 MacOS(Silicon)
+   2023.2.5f1 MacOS(Silicon)
 * OS
-  > macOS 13.4.1 (22F82)
-  > Macbook Apple M1 Max
+   macOS 13.4.1 (22F82)
+   Macbook Apple M1 Max
 * XCode
   > Version 14.3.1 (14E300c)
   
